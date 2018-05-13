@@ -1,0 +1,52 @@
+{
+  "name": "randobook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode=development & nodemon server.js",
+    "server": "node server.js",
+    "heroku-postbuild": "webpack -p"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "db/*"
+    ]
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cookie-parser": "~1.4.3",
+    "css-loader": "^1.0.0",
+    "dateformat": "^3.0.3",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "emotion": "^10.0.9",
+    "express": "~4.16.0",
+    "express-react-views": "^0.10.5",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "lowdb": "^1.0.0",
+    "memorystore": "^1.6.0",
+    "mongodb": "^3.1.1",
+    "morgan": "~1.9.0",
+    "node-fetch": "^2.1.2",
+    "oauth": "^0.9.15",
+    "preact": "^8.4.2",
+    "query-string": "^6.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-html-parser": "^2.0.2",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "whatwg-fetch": "^2.0.4",
+    "xml-js": "^1.6.2"
+  }
+}
