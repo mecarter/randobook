@@ -35,7 +35,7 @@
     "jade": "~1.11.0",
     "lowdb": "^1.0.0",
     "memorystore": "^1.6.0",
-    "mongodb": "^3.1.1",
+    "mongodb": "^3.1.13",
     "morgan": "~1.9.0",
     "node-fetch": "^2.1.2",
     "oauth": "^0.9.15",
